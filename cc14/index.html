@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bg-gray-800 text-white text-center py-4">
+        <h1 class="text-4xl font-bold">My Portfolio</h1>
+    </header>
+    <img src=" 83154429_3604349629582381_1133517091471622144_n.jpg" alt="">
+
+    <main class="container mx-auto mt-8">
+        <!-- About Me Section -->
+        <section id="about-me" class="mb-8">
+            <h2 class="text-2xl font-bold">About Me</h2>
+            <div class="img-allan" style="display: none;"></div> <!-- Initially hidden -->
+            <p>My name is Ronald Allan Geronimo and I am 22 years old.</p>
+            <button id="toggle-image" class="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Toggle Image</button>
+        </section>
+        
+
+        <!-- Education Section -->
+        <section id="education" class="mb-8">
+            <h2 class="text-2xl font-bold">Education</h2>
+            <p>Bachelor of Science in Information Technology (BSIT) - University Of The Cordilleras (2021-current)</p>
+            <p>Senior High School ABM strand - University Of Baguio (2018-2020)</p>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-8">
+            <h2 class="text-2xl font-bold">Experience</h2>
+            <p>Service Crew at Mcdonald's Bonifacio (2017)</p>
+            <p>Barista at Seollem Cafe (2022-2023)</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-8">
+          <h2 class="text-2xl font-bold">Skills</h2>
+         <ul>
+              <li>Dancing:</li>
+             <li>
+                 <img src="img/dance.JPG" alt="Dancing Image" class="image-item">
+              </li>
+              <li>Drawing:</li>
+             <li>
+                 <img src="img/draw.JPG" alt="Drawing Image" class="image-item">
+              </li>
+             <li>Cooking:</li>
+                <li>
+                 <img src="img/cook.JPG" alt="Cooking Image" class="image-item">
+              </li>
+             <li>Piercing:</li>
+             <li>
+                 <img src="img/pierce.JPG" alt="Piercing Image" class="image-item">
+              </li>
+         </ul>
+        </section>
+
+
+        <!-- Contact Information Section -->
+        <section id="contact" class="mb-8">
+            <h2 class="text-2xl font-bold">Contact Information</h2>
+            <!-- Additional contact details initially hidden -->
+            <div class="additional-contact-details" style="display: none;">
+                <p>Email: ra.geronimo09@gmail.com</p>
+                <p>Phone: 09676946767</p>
+            </div>
+            <button id="toggle-contact-details" class="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Toggle Details</button>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

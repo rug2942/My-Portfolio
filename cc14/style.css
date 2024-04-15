@@ -1,0 +1,17 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+body {
+    background-color: rgb(170, 187, 235);
+    
+}
+.img-allan {
+    width: 600px;
+    height: 500px;
+    background-image: url(img/allan.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-item {
+    margin-bottom: 50px; 
+}
